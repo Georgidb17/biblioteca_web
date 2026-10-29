@@ -75,4 +75,5 @@ require 'cabecera.php';
     </tbody>
 </table>
 
+<script src="js/prestamos.js"></script>
 <?php require 'pie.php'; ?>

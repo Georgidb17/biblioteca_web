@@ -77,4 +77,5 @@ require 'cabecera.php';
     <a href="libros.php">Cancelar</a>
 </form>
 
+<script src="js/libro_nuevo.js"></script>
 <?php require 'pie.php'; ?>
