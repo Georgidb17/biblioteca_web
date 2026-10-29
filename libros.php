@@ -41,4 +41,5 @@ $libros = listar_libros($texto);
     </tbody>
 </table>
 
+<script src="js/libros.js"></script>
 <?php require 'pie.php'; ?>
