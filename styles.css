@@ -1,0 +1,62 @@
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+
+body {
+    margin: 0;
+    font-family: system-ui, Arial, sans-serif;
+    background: #f5f3ee;
+    color: #2b2b2b;
+}
+
+header {
+    background: #2f4858;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+header h1 { margin: 0; font-size: 1.4rem; }
+nav a { color: #fff; text-decoration: none; margin-left: 1rem; font-weight: 600; }
+nav a:hover { text-decoration: underline; }
+
+main { max-width: 1000px; margin: 1.5rem auto; padding: 0 1rem; }
+footer { text-align: center; color: #777; padding: 2rem 0; font-size: .85rem; }
+
+.tarjetas { display: flex; gap: 1rem; flex-wrap: wrap; }
+.tarjeta {
+    flex: 1 1 180px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .1);
+}
+.tarjeta span { display: block; font-size: 2rem; font-weight: 700; color: #2f4858; }
+
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: .5rem .7rem; border-bottom: 1px solid #e3e0d8; text-align: left; }
+th { background: #e9e5dc; }
+
+.etiqueta { padding: .15rem .5rem; border-radius: 4px; font-size: .85rem; }
+.etiqueta.ok { background: #dcefdc; color: #1e6b1e; }
+.etiqueta.no { background: #f6dede; color: #a12a2a; }
+
+.barra { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 1rem; }
+input, select, button, .boton { font: inherit; padding: .45rem .7rem; }
+button, .boton {
+    background: #2f4858;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+button:hover, .boton:hover { background: #3f6176; }
+
+.formulario { display: grid; gap: .8rem; max-width: 420px; }
+.formulario label { display: grid; gap: .25rem; font-weight: 600; }
+
+.errores { background: #f6dede; color: #a12a2a; padding: .5rem 1rem; border-radius: 4px; }
+.mensaje { background: #dcefdc; color: #1e6b1e; padding: .5rem 1rem; border-radius: 4px; }
